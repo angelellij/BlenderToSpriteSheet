@@ -1,16 +1,16 @@
 
 This script converts animations in blender to spritesheets in one single run. Te objective was to be able to just download a mixamo animation and, withought changing anything outside the script be able to export a spritesheet. This should allow to 1) Save parameters like size, camera distance, light values on script meaning your spritesheets will be alike, 2) minimal changes are than only on the script everytime so to avoid work done on blender.
 
-Requirements
+#Requirements
 
 You need to have python with the PILLOW library installed.
 
-Inspirations 
+#Inspirations 
 This script was based mainly from CambiramMax's script: https://www.youtube.com/watch?v=16jF6ON1q5c&list=LL&index=4&t=15s and a little bit from FoozleCC
 https://www.youtube.com/watch?v=l1Io7fLYV4o&list=LL&index=5&t=1s. However I added some improvements like moving the camera and lights automatically to allow to get non "Inplace" animations from Mixamo working. It also auto hides Armatures if more than one animation appears.
 
 Values you can and probably want to change:
-
+```
 #Base
 directions = 8 #This is how many angles you want (probably 8 or 4)
 size = 256 #This is the size in pixels of each sprite in my case is 256 by 256
@@ -39,3 +39,4 @@ animations = [ #in the order of the fbx file names
     #['run', 0, 21, 3],
     #['throw', 56, 124, 4],
 ]
+```
