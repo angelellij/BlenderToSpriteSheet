@@ -1,5 +1,5 @@
 
-This script converts animations in blender to spritesheets in one single run. Te objective was to be able to just download a mixamo animation and, withought changing anything outside the script be able to export a spritesheet. This should allow to 1) Save parameters like size, camera distance, light values on script meaning your spritesheets will be alike, 2) minimal changes are than only on the script everytime so to avoid work done on blender.
+This script converts animations in blender to spritesheets in one single run. Te objective was to be able to just download a mixamo animation and, withought changing anything outside the script, be able to export a spritesheet. This should allow to 1) Save parameters like size, camera distance, light values on script meaning your spritesheets will be alike, 2) minimal changes are then only on the script everytime so to avoid work done on blender.
 
 # Requirements
 
